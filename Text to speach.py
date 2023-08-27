@@ -1,4 +1,4 @@
-#pip install pyttsx3
+
 import pyttsx3
 
 text =  pyttsx3.init()
@@ -9,7 +9,4 @@ while True:
  text.runAndWait()
  if t=="Q":
     break
- #X = input("how are you") 
-#text.say(x) 
-# this alson works and much easy 
 
